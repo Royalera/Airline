@@ -1,0 +1,25 @@
+/* Compact modal design */
+.slds-modal__container {
+    max-width: 38rem; /* smaller width */
+    border-radius: 0.6rem;
+    background-color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* Subtle background overlay */
+.slds-backdrop_open {
+    opacity: 0.4 !important;
+    backdrop-filter: none !important;
+}
+
+/* Header */
+.slds-modal__header.slds-text-align_center {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    background-color: #f3f3f3;
+}
+
+/* Inputs spacing */
+.slds-section .slds-p-around_small {
+    padding: 0.4rem 0;
+}
